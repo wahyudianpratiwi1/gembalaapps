@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        android:text="Silahkan Masuk"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Email"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="250dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Password"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="320dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="400dp"
+        android:id="@+id/relative1">
+
+        <View
+            android:id="@+id/rectangle_3"
+            android:foregroundGravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/button"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Masuk"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins_bold"
+            android:gravity="center"
+            android:layout_alignBottom="@+id/rectangle_3"
+            />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lupa Kata Sandi?"
+        android:id="@+id/text1"
+        android:gravity="right"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        android:layout_below="@+id/relative1"
+        android:layout_marginTop="10dp"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/text1">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Belum Punya Akun?"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Daftar"
+            android:gravity="right"
+            android:textStyle="bold"
+            android:layout_marginRight="100dp"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="@color/blue"/>
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
